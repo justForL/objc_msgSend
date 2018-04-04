@@ -13,6 +13,8 @@
 		1AFFB6A920730F470067FD37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFB6A820730F470067FD37 /* Assets.xcassets */; };
 		1AFFB6AC20730F470067FD37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFB6AA20730F470067FD37 /* LaunchScreen.storyboard */; };
 		1AFFB6AF20730F470067FD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB6AE20730F470067FD37 /* main.m */; };
+		1AFFB6B720730FAA0067FD37 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB6B620730FAA0067FD37 /* Student.m */; };
+		1AFFB6BA20745E250067FD37 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB6B920745E250067FD37 /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		1AFFB6AB20730F470067FD37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AFFB6AD20730F470067FD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AFFB6AE20730F470067FD37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AFFB6B520730FAA0067FD37 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		1AFFB6B620730FAA0067FD37 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		1AFFB6B820745E250067FD37 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		1AFFB6B920745E250067FD37 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				1AFFB6A020730F470067FD37 /* AppDelegate.m */,
 				1AFFB6A220730F470067FD37 /* ViewController.h */,
 				1AFFB6A320730F470067FD37 /* ViewController.m */,
+				1AFFB6B520730FAA0067FD37 /* Student.h */,
+				1AFFB6B620730FAA0067FD37 /* Student.m */,
+				1AFFB6B820745E250067FD37 /* Teacher.h */,
+				1AFFB6B920745E250067FD37 /* Teacher.m */,
 				1AFFB6A520730F470067FD37 /* Main.storyboard */,
 				1AFFB6A820730F470067FD37 /* Assets.xcassets */,
 				1AFFB6AA20730F470067FD37 /* LaunchScreen.storyboard */,
@@ -145,6 +155,8 @@
 				1AFFB6A420730F470067FD37 /* ViewController.m in Sources */,
 				1AFFB6AF20730F470067FD37 /* main.m in Sources */,
 				1AFFB6A120730F470067FD37 /* AppDelegate.m in Sources */,
+				1AFFB6BA20745E250067FD37 /* Teacher.m in Sources */,
+				1AFFB6B720730FAA0067FD37 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

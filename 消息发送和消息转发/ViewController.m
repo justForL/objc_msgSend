@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "Student.h"
+#import <objc/message.h>
 @interface ViewController ()
 
 @end
@@ -16,14 +17,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    Student *stu = [Student studentWithName:@"小明" age:12];
+    [stu eat];
+    
+
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+
+- (void)msgSend {
+    //    Student *stu = [Student studentWithName:@"小明" age:12];
+    //    [stu study];
+    
+    Student *stu = ((Student *(*)(id, SEL, NSString *, NSInteger))objc_msgSend)((id)[Student class], @selector(studentWithName:age:), @"小明",12);
+    ((void (*) (id, SEL))objc_msgSend)((id)stu, @selector(study));
+    
+    
+    
+    ((void (*) (id,SEL))objc_msgSend)((id)stu,@selector(eat));
 }
-
-
 @end
